@@ -22,7 +22,6 @@ public class Game {
     void play() {
         System.out.println("begin play!");
         int guess = getGuess();
-        // gets the user guess by calling getGuess()
        
         while(guess != numToGuess){
              System.out.println("You guessed " + guess);
@@ -38,7 +37,7 @@ public class Game {
             System.out.println("You guessed the number in " + (guesses) + "guesses!");
     }
 
-    int getGuess() { //in this function make an ArrayList and do task 2
+    int getGuess() {
         if(sc.hasNextInt()){
             int guess = sc.nextInt();
              if(previousGuesses.contains(guess)) {

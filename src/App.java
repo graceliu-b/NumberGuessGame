@@ -3,8 +3,6 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Welcome to the Number Guess Game!");
-        // See Game for pseudocode you need to fill out
-        // Create a new Game that sets a number within the user's specified number range
         ArrayList<Game> games = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         System.out.println("To play a game, press 'y'. If you want to stop playing, type anything other than 'y'.");
