@@ -11,7 +11,7 @@ public class Game {
 
     Game(int low, int high) {
         low = 0;
-        high = 100;
+        high = 50;
         guesses = 0;
         System.out.println("I'm thinking of a number " + low + " to " + high);
         Random r = new Random();
