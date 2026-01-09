@@ -34,7 +34,7 @@ public class Game {
             guess = getGuess();
              }
          System.out.println("Done playing!");
-            System.out.println("You guessed the number in " + (guesses) + "guesses!");
+            System.out.println("You guessed the number in " + (guesses) + " guesses!");
     }
 
     int getGuess() {
